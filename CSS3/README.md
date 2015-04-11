@@ -83,14 +83,14 @@
 - **z-index**
 - **display** 
 - **visibility**
-- **overflow**
+- **overflow**  
 <br>
 - **border**
 - **border-radius**
 - **box-shadow**
 - **background-color**
 - **background-image**  
-- **cursor**
+- **cursor**  
 <br>
 - **color**
 - **font-size**
