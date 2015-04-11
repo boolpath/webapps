@@ -66,3 +66,27 @@
     [...^= value]   (starts with value)
     [...$= value]   (ends with value)
     ```
+    
+##Properties
+- **width**
+- **height**
+- **margin**
+- **padding**
+- **position**
+- **display**  
+<br>
+- **color**
+- **background-color**
+- **background-image**  
+<br>
+- **font-size**
+- **font-weight**
+- **font-family**
+- **font-style**
+- **text-align**
+- **text-shadow**
+- **text-decoration**
+- **text-transform**
+- **text-indent**  
+<br>
+- ****
