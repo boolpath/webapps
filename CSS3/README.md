@@ -44,14 +44,16 @@
     htmlTag:pseudo-class {...}
     ```  
     ```css
-    (links)         :visited     :hover       :active    :target
-    (buttons)       :enabled     :disabled    :checked
-    (structural)    :root           :empty  
+    (forms)         :optional   :required   :read-only   :read-write    :out-of-range
+    (state)         :visited    :hover      :active      :target        :focus
+                    :enabled    :checked    :disabled    ::selection
+    (structure)     :root           :empty  
                     :first-child    :only-child    :last-child  
                     :first-of-type  :only-of-type  :last-of-type 
-                    :nth-child(n)   :nth-last-child(an+b)  
+                    :nth-child(n)   :nth-last-child(n)  
                     :nth-of-type(parity)  :nth-last-of-type(parity) 
-    (exclusive)     :not(.class)
+    (exclusion)     :not(.class)
+    (order)         ::before   ::after   ::first-letter   ::first-line
     ```
 - **Attributes**
 
@@ -60,6 +62,7 @@
     ```  
     ```css
     OPERATORS
+    [... = value]   (equals value)
     [...*= value]   (contains value)
     [...~= value]   (contains value, after splitting by spaces)
     [...|= value]   (starts with or contains value, after splitting by hyphens)
@@ -72,13 +75,24 @@
 - **height**
 - **margin**
 - **padding**
+- **float**
+- **clear**
 - **position**
-- **display**  
+- **top**
+- **left** 
+- **z-index**
+- **display** 
+- **visibility**
+- **overflow**
 <br>
-- **color**
+- **border**
+- **border-radius**
+- **box-shadow**
 - **background-color**
 - **background-image**  
+- **cursor**
 <br>
+- **color**
 - **font-size**
 - **font-weight**
 - **font-family**
@@ -87,6 +101,30 @@
 - **text-shadow**
 - **text-decoration**
 - **text-transform**
-- **text-indent**  
+- **text-indent**
+- **text-overflow**
+- **@font-face**  
 <br>
-- ****
+- **list-style-type**
+- **list-style-image**
+- **list-style-position**  
+<br>
+- **border-collapse**
+- **border-spacing**
+- **vertical-align**  
+<br>
+- **transform**
+- **transform-origin**
+- **transform-style**  
+<br>
+- **transition**
+- **transition-property**
+- **transition-duration**
+- **transition-delay**
+- **transition-timing-function**  
+<br>
+- **animation**
+- **animation-delay**
+- **animation-duration**
+- **animation-direction**
+- **@keyframes**
