@@ -1,2 +1,2 @@
-# webtech
-Summaries of Web technologies
+# webapps
+Summaries of technologies for web applications
