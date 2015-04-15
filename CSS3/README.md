@@ -117,16 +117,16 @@
     position: absolute;     position: relative;         position: fixed;
     ```
 
-- **top**  
+- **top, bottom**  
 
     ```css
-    top: 100px;
+    top: 100px;             bottom: 100px;
     ```
 
-- **left**   
+- **left, right**   
 
     ```css
-    left: 100px;
+    left: 100px;            right: 100px;
     ```
 
 - **z-index**  
@@ -170,7 +170,7 @@
 - **box-shadow**  
 
     ```css
-    
+    box-shadow: 10px 10px 5px #ccc; /*horizontal vertical blur-spread color*/
     ```
     
 
@@ -191,7 +191,7 @@
 - **cursor**    
 
     ```css
-    cursor: pointer;        /*none, auto, move, help, progress, zoom-in, x-resize,...*/
+    cursor: pointer;    /*none, auto, move, help, progress, zoom-in, x-resize, url(),...*/
     ```
     
 <br>
@@ -237,42 +237,43 @@
 - **text-shadow**  
 
     ```css
-    
+    text-shadow: 3px 3px #ccc;
     ```
     
 
 - **text-decoration**  
 
     ```css
-    
+    text-decoration: underline;     text-decoration: line-through;      text-decoration: none;
     ```
     
 
 - **text-transform**  
 
     ```css
-    
+    text-transform: lowercase;      text-transform: uppercase;      text-transform: capitalize;
     ```
     
 
 - **text-indent**  
 
     ```css
-    
+    text-indent: 50px;              text-indent: 10%;
     ```
     
 
 - **text-overflow**  
 
     ```css
-    
+    text-overflow: clip;            text-overflow: ellipsis;
     ```
     
 
 - **@font-face**   
 
     ```css
-    
+    font-family: thefont;
+    src: url(font.woff);
     ```
     
 <br>
